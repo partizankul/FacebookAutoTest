@@ -12,10 +12,9 @@ public class ForgotPage {
     private By findYouAkkQuestionText = By.xpath("//h2[@class=\"uiHeaderTitle\"][text()=\"Найдите свой аккаунт\"]");
     private By mailOrPhoneField = By.xpath("//*[@id=\"identify_email\"]");
     private By findAkkButton = By.xpath("//*[@id=\"u_0_2\"]");
-    private By cancelButton = By.xpath("//*[text()=\"Отмена\"]");
-    private By singInlogin = By.xpath("//tbody//input[@id=\"email\"]");
-    private By singInPass = By.xpath("//tbody//input[@id=\"pass\"]");
-    private By singInButton = By.xpath("//input[@id=\"u_0_3\"");
+    private By toRestorePass = By.xpath("//div[@class=\"rfloat _ohf\"]/h2[@class=\"accessible_elem\"][text()=\"Восстановление пароля\"]");
+    //private By cancelButton = By.xpath("//*[text()=\"Отмена\"]");
+
 
     public String getHeadingText(){
         return driver.findElement(heading).getText();
@@ -23,28 +22,29 @@ public class ForgotPage {
     public String getFindYouAkkQuestionText (){
         return driver.findElement(findYouAkkQuestionText).getText();
     }
-    public ForgotPage mailOrPhoneField(String mailOrPhone){
-        driver.findElement(mailOrPhoneField).sendKeys(mailOrPhone);
-        return this;
-    }
     public ForgotPage clickFindAkkButton(){
         driver.findElement(findAkkButton).click();
         return new ForgotPage(driver);
     }
-    public ForgotPage clickCancelButton(){
-        driver.findElement(cancelButton).click();
+    public ForgotPage mailOrPhoneField(String mailOrPhone){
+         driver.findElement(mailOrPhoneField).sendKeys(mailOrPhone);
+        return this;
+
+    }
+    public ForgotPage findAkk(String mailOrPhone){
+        this.mailOrPhoneField(mailOrPhone);
+        this.clickFindAkkButton();
         return new ForgotPage(driver);
     }
-    public ForgotPage sinInLoginField( String login){
-        driver.findElement(singInlogin).sendKeys(login);
-        return this;
+    public String getToRestorePassText(){
+        return driver.findElement(toRestorePass).getText();
     }
-    public  ForgotPage singInPassField(String pass){
-        driver.findElement(singInPass).sendKeys(pass);
-        return this;
-    }
-    public ForgotPage clickSingInButton(){
-        driver.findElement(singInButton).click();
-        return  new ForgotPage(driver);
-    }
+
+
+
+   /* public ForgotPage clickCancelButton(){
+        driver.findElement(cancelButton).click();
+        return new ForgotPage(driver);
+    }*/
+
 }

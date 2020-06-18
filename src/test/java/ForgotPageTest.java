@@ -19,9 +19,26 @@ public class ForgotPageTest {
 
     @Test
     public void headingTest(){
-        logger.info("start headingTest");
+        logger.info("start ForgotPageTest test headingTest");
         String heading = forgotPage.getHeadingText();
+        logger.info("heading = "+ heading );
         Assert.assertEquals("Facebook", heading);
+        logger.info("finish ForgotPageTest test headingTest");
+    }
+    @Test
+    public void getFindYouAkkQuestionTextTest(){
+        logger.info("start ForgotPageTest test getFindYouAkkQuestionTextTest");
+        logger.info("forgotPage.getFindYouAkkQuestionText() = " + forgotPage.getFindYouAkkQuestionText() );
+        Assert.assertEquals("Найдите свой аккаунт", forgotPage.getFindYouAkkQuestionText());
+        logger.info("finish ForgotPageTest test getFindYouAkkQuestionTextTest");
+    }
+    @Test
+    public void findAkkTest(){
+        logger.info("start ForgotPageTest test findAkkTest");
+        forgotPage.findAkk("test@mail.ru");
+        logger.info("getToRestorePassText() = "+ forgotPage.getToRestorePassText());
+        Assert.assertEquals("Восстановление пароля", forgotPage.getToRestorePassText());
+        logger.info("finish ForgotPageTest test findAkkTest");
     }
 
     @After

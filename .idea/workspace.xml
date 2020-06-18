@@ -2,15 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12647ddf-bb3e-4b16-abc9-b232ce65432f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ForgotPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ForgotPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SingUpPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utilites/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilites/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/app.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ForgotPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ForgotPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MainPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SingUpPage.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ForgotPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ForgotPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SingUpPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ForgotPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ForgotPageTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/LoginPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LoginPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MainPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MainPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SingUpPage.class" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,36 +36,31 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="1d63t4CIsPBIjcVR6P4f21aGBVs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.LoginPageTest.registredMailTest">
+  <component name="RunManager" selected="JUnit.MainPageTest.createNewAkk">
+    <configuration name="ForgotPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FacebookAutoTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ForgotPageTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ForgotPageTest.headingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FacebookAutoTest" />
       <option name="PACKAGE_NAME" value="" />
@@ -66,21 +71,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginPageTest.registredMailTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FacebookAutoTest" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LoginPageTest" />
-      <option name="METHOD_NAME" value="registredMailTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainPageTest.createNewAkk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FacebookAutoTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainPageTest" />
+      <option name="METHOD_NAME" value="createNewAkk" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginPageTest.registredTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainPageTest.loginInMailTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FacebookAutoTest" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoginPageTest" />
-      <option name="METHOD_NAME" value="registredTest" />
+      <option name="MAIN_CLASS_NAME" value="MainPageTest" />
+      <option name="METHOD_NAME" value="loginInMailTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,9 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LoginPageTest.registredMailTest" />
-        <item itemvalue="JUnit.LoginPageTest.registredTest" />
+        <item itemvalue="JUnit.MainPageTest.createNewAkk" />
+        <item itemvalue="JUnit.MainPageTest.loginInMailTest" />
+        <item itemvalue="JUnit.ForgotPageTest" />
         <item itemvalue="JUnit.ForgotPageTest.headingTest" />
+        <item itemvalue="JUnit.LoginPageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -112,12 +128,29 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1557" height="202" key="GridCell.Tab.0.bottom" timestamp="1592514319750">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="202" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1592514319750" />
+    <state width="1557" height="202" key="GridCell.Tab.0.center" timestamp="1592514319749">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="202" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1592514319749" />
+    <state width="1557" height="202" key="GridCell.Tab.0.left" timestamp="1592514319749">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="202" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1592514319749" />
+    <state width="1557" height="202" key="GridCell.Tab.0.right" timestamp="1592514319749">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="202" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1592514319749" />
   </component>
 </project>

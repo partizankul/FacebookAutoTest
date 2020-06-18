@@ -34,9 +34,9 @@ public class LoginPageTest {
         logger.info("finish LoginPageTest test registredPassTest");
     }
 
-    /*@After
+    @After
     public void tearDown(){
         Driver.getDriver().quit();
     }
-*/
+
 }
